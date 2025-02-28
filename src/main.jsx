@@ -4,9 +4,11 @@ import './index.css'
 import App from './App.jsx'
 import { AppCounter } from './components/AppCounter.jsx'
 import { SimpleForm } from './components/SimpleForm.jsx'
+import {Card} from  './components/Card.jsx'
+import { CustomHook } from './components/CustomHook.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <AppCounter></AppCounter>
+    <CustomHook></CustomHook>
   </StrictMode>,
 )
